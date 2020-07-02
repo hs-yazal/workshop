@@ -1,0 +1,112 @@
+
+*::selection{
+    background-color: #ffc107;
+    color: #fff;
+}
+
+.home .test{
+    
+    height: 100vh;
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color:#fff;
+}
+.caption{
+     font-size: 1.5rem;
+}
+.caption h1{
+font-size: 4rem;
+font-weight: bold;
+}
+
+.advisors .overlay{
+   background-color:rgba(0, 33, 71, 0.7);
+
+}
+.back{
+    position: relative;
+    overflow: hidden;
+    
+}
+.overlay{
+position: absolute;
+left: 15px;
+right: 15px;
+bottom: 100%;
+top: -100%;
+transition: all 1s ease-in-out;
+
+}
+.back:hover .overlay{
+   bottom: 15px;
+   top: 15px;
+}
+.overlay2{
+    background-color: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    transition: all .5s  ease;
+
+}
+.back:hover .overlay2{
+transition-delay: .5s;
+bottom: -100%;
+}
+
+.top{
+    background-color: #f8f9fa;
+}
+.top1{
+    position: relative;
+
+}
+.top2{
+    height: 100%;
+    width: 100%;
+    position: absolute ;
+    top: 0;
+    left: 0;
+    transition: all 1s;
+
+}
+.top1:hover .top2{
+    opacity: .6;
+}
+
+.photo{
+    position: relative;
+   
+}
+
+.photo .over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all .6s;
+}
+
+.photo:hover .over{
+    opacity: .8;
+    cursor: pointer;
+}
+
+
+.btn.btn-warning {
+    font-weight: bold;
+
+}
+.end{
+    background-color:#212529;
+    background-image: url(../images/map-image.png);
+    background-size: cover;
+    background-position: center;
+
+}
